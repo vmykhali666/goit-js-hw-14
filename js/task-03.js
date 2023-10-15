@@ -13,6 +13,8 @@ const images = [
   },
 ];
 
+let gallery = document.querySelector('.gallery');
+
 function createImageElement(image) {
   return `
     <li>
